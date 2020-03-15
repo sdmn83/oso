@@ -4,6 +4,9 @@
 	<meta charset="UTF-8">
 	<title>Our Strong Organaisation</title>
 	<link rel="stylesheet" href="css/style.css">
+		<script>
+			document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+		</script>
 </head>
 <body>
 	<header>
@@ -21,7 +24,7 @@
 			<div class="container">
 				<div class="home__content">
 					<div class="home__text">
-						<h1>our strong <span>organaisation</span></h1>
+						<h1>our strong  <span>organaisation</span></h1>
 						<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt  ut labore et. ectetur adig ipis cing elit, sed do eiusmod tempor incididunt.</p>
 						<a href="#contact">
 							<div class="contactbtn">Contact Us</div>
@@ -37,7 +40,7 @@
 			<div class="container">
 				<div class="performance__content">
 					<div class="performance__text">
-						<h2>do you know we can provide for you ?</h2>
+						<h2>do you know we can  provide for you ?</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ni ipsum dolor sit amet, consectetur adipis cing elit, ed doi eiusmod tempor incididunt ut labore et.</p>
 						<a href="">
 							<div class="learnbtn">
@@ -170,8 +173,8 @@
 				<div class="subscribe__content">
 					<h4>Design tips, tricks, and freebies. Delivered weekly.</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.</p>
-					<form action="">
-						<input type="email" class="subscribe__email" value="Email Address...">
+					<form action="" method="GET">
+						<input type="email" class="subscribe__email" placeholder="Email Address..." required name="email">
 						<input type="submit" value="subscribe" class="subscribe__btn">
 					</form>
 				</div>
@@ -185,19 +188,19 @@
 					<div class="contact__line"></div>
 				</div>
 				<div class="contact__row">
-					<form action="">
+					<form action=""  method="GET">
 						<div class="contact__rowinform">
-							<input type="text" class="contact__name contact__field" placeholder="Name">
-							<input type="email" class="contact__email contact__field" placeholder="Your Mail">
+							<input type="text" class="contact__name contact__field" name="name" required placeholder="Name">
+							<input type="email" class="contact__email contact__field" name="email" required placeholder="Your Mail">
 						</div>
-						<textarea class="contact__message contact__field" placeholder="Type your message"></textarea>
+						<textarea class="contact__message contact__field" placeholder="Type your message" name="message" required></textarea>
 						<input type="submit" class="contact__send" value="send message">
 					</form>
 					<div class="contact__info">
-						<p>CONTACT INFO</p>
-						<p>Jalalabad 24 / A, Ambaarkhana, Sylhet, Bangladesh</p>
-						<p>redwan@deviserweb.com</p>
-						<p>&#40;+88&#41; 017 617 46373</p>
+						<h5>CONTACT INFO</h5>
+						<address>Jalalabad 24 / A, Ambaarkhana, Sylhet,  Bangladesh</address>
+						<a href="mailto:redwan@deviserweb.com">redwan@deviserweb.com</a>
+						<a href="tel:+88 017 617 46373">(+88) 017 617 46373</a>
 					</div>
 				</div>
 			</div>
