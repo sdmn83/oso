@@ -38,7 +38,7 @@ header {
 	position: fixed;
 	width: 100%;
 	margin: 0 auto;
-	top: 29px;
+	top: 0;
 	z-index: 10;
 }
 nav {
@@ -46,8 +46,7 @@ nav {
 	height: 89px;
 	max-width: 1249px;
 	min-width: 350px;
-	background-color: #000000;
-	opacity: 0.8;
+	background-color: #313030;
 	display: flex;
 	justify-content: center;
 }
@@ -75,7 +74,7 @@ main {
 	background-color: #f6f2f2;
 }
 .home__content {
-	padding: 221px 0 98px 0;
+	padding: 192px 0 98px 0;
 	display: flex;
 	justify-content: space-between;
 	overflow: hidden;
@@ -468,7 +467,6 @@ h5 {
 }
 .contact__field {
 	background-color: #e6e6e6;
-	flex: 1 1 339px;
 	padding: 25px 50px;
 	border-radius: 5px;
 	border: 0;
@@ -479,9 +477,13 @@ h5 {
 }
 .contact__name {
 	height: 19px;
+	flex: 1 1 339px;
+
 }
 .contact__email {
 	height: 19px;
+	flex: 1 1 339px;
+
 }
 .contact__message {
 	height: 199px;
