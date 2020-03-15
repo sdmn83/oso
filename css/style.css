@@ -190,7 +190,7 @@ h4 {
 	flex: 0 1 50%;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: center;
 }
 .performance__item {
 	padding: 0 9px;
@@ -454,7 +454,7 @@ h5 {
 .contact__row {
 	display: flex;
 	justify-content: space-between;
-	padding: 78px 0 112px 0;
+	padding: 68px 0 112px 0;
 }
 .contact__row form {
 	flex: 1 1 320px;
@@ -468,25 +468,25 @@ h5 {
 }
 .contact__field {
 	background-color: #e6e6e6;
+	flex: 1 1 339px;
 	padding: 25px 50px;
 	border-radius: 5px;
 	border: 0;
-	margin: 0 27px;
+	margin: 10px 27px;
 	font-size: 16px;
 	line-height: 28px;
 
 }
 .contact__name {
-	flex: 0 1 339px;
 	height: 19px;
 }
 .contact__email {
-	flex: 0 1 339px;
 	height: 19px;
 }
 .contact__message {
 	height: 199px;
-	margin: 44px 0;
+	margin: 34px 0 44px 0;
+
 }
 .contact__send {
 	height: 72px;
@@ -494,7 +494,7 @@ h5 {
 	font-family: 'OpenSans Bold';
 	font-size: 18px;
 	line-height: 34px;
-	letter-spacing: 0.317046px;
+	letter-spacing: 0.3px;
 	text-transform: uppercase;
 	color: #FFFFFF;
 }
@@ -561,14 +561,6 @@ footer {
 	.home__img-link {
 		margin: 0;
 	}
-	.performance__content {
-		flex-direction: column;
-	}
-	.performance__text {
-		text-align: center;
-		align-items: center;
-		padding: 0;
-	}
 	.about__text {
 		align-items: center;
 		text-align: center;
@@ -589,6 +581,34 @@ footer {
 		flex: 1 1 40%;
 	}
 
+	.contact__rowinform {
+		flex-direction: column;
+	}
+	.contact__name {
+		flex: 0 0 0;
+
+	}
+	.contact__email {
+		flex: 0 0 0;
+
+	}
+	.contact__getintouch{
+		align-items: center;
+		text-align: center;
+	}
+}
+
+@media(max-width: 1150px) {
+	.performance__text {
+		flex: 0 0 0;
+
+		text-align: center;
+		align-items: center;
+		padding: 0;
+	}
+	.performance__content {
+		flex-direction: column;
+	}
 	.contact__row {
 		flex-wrap: wrap;
 		justify-content: space-between;
@@ -597,12 +617,9 @@ footer {
 		margin: 100px 0 0 0;
 		padding: 80px;
 		flex: 1 1 100%;
-		max-width: 100ch;
+		max-width: none;
 		transform: translateX(0);
 		width: 100%;
-	}
-	.contact__getintouch{
-		align-items: center;
-		text-align: center;
-	}
+		}
+
 }
