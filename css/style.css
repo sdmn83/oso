@@ -510,11 +510,15 @@ h5 {
 	justify-content: center;
 	transform: translateX(170px);
 }
-.contact__info p {
-	max-width: 45ch;
-	padding:14px 0;
+.contact__info a {
+	color: #fff;
+	margin:14px 0;
 }
-.contact__info p:nth-of-type(1) {
+.contact__info address {
+	max-width: 45ch;
+	margin:14px 0;
+}
+.contact__info h5 {
 	font-family: 'OpenSans Bold';
 	font-size: 18px;
 	line-height: 34px;
